@@ -80,10 +80,7 @@ char	*get_next_line(int fd)
 #include <stdio.h>
 int main()
 {
-	int fd = open("file.txt", O_RDWR);
-	int fd1 = open("file.txt", O_RDWR);
-	printf("%d\n", fd);
-	printf("%d", fd1);
+	int fd = open("PATH_TO_FILE", O_RDWR);
 	printf("%s", get_next_line(fd));
-	printf("%s", get_next_line(fd1));
+ 	printf("%s", get_next_line(fd));
 }*/
